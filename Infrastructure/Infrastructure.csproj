@@ -14,7 +14,20 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Product>AspNetCore.Infrastructure</Product>
     <Description>A infrastructure template for Repository, Business and Controller layers in Asp.Net Core</Description>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="11.0.1" />
