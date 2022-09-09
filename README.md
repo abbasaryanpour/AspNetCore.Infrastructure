@@ -1,6 +1,6 @@
 # AspNetCore.Infrastructure
 
-A template infrastructure for Repository, Business and Controller layer in Asp.Net Core
+A infrastructure template for Repository, Business and Controller layers in Asp.Net Core
 
 
 ## License
