@@ -4,6 +4,16 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>Aryanpour.AspNetCore.Infrastructure</Title>
+    <PackageId>Aryanpour.AspNetCore.Infrastructure</PackageId>
+    <Authors>Abbas Aryanpour</Authors>
+    <Company />
+    <RepositoryUrl>https://github.com/abbasaryanpour/AspNetCore.Infrastructure</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>AspNetCore</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Product>AspNetCore.Infrastructure</Product>
+    <Description>A infrastructure template for Repository, Business and Controller layers in Asp.Net Core</Description>
   </PropertyGroup>
 
   <ItemGroup>
